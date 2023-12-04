@@ -9,4 +9,4 @@ Resources:
     Type: AWS::EC2::Subnet
     Properties:
       CidrBlock: 10.0.0.1/16
-      VpcName: !Ref VPC
+      VpcId: !Ref VPC
