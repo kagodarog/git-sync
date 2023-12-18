@@ -10,3 +10,11 @@ Resources:
     Properties:
       CidrBlock: 10.0.0.1/16
       VpcId: !Ref VPC
+
+  EC2:
+    Type: AWS::EC2::EIP
+    Properties: 
+      Tags:
+        - Key: test
+          Value: menk
+    
